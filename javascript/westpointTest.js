@@ -1,6 +1,6 @@
 // Write a function that creates an array of 20 random numbers between 1 to 100 and returns the lowest and highest number present in the array.
 
-const main = (params) => {
+const main = () => (params) => {
   const numbers = generateRandomNumbers();
 
   if (!(numbers instanceof Array)) {
