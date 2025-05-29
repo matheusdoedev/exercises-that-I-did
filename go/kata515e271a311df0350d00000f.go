@@ -2,8 +2,16 @@
 
 package kata
 
+import (
+    "math"
+)
+
 func SquareSum(numbers []int) int {
     result := 0
 
-	
+	for _, v := range numbers {
+        result += int(math.Pow(float64(v), 2))
+    }
+
+    return result
 }
